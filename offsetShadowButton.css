@@ -9,16 +9,15 @@ FUNCTIONALITY:  Before, the button will have an offset shadow.
 */
 
 
+ * {
+    box-sizing: border-box;
+  }
 
 body {
     margin: 0;
     padding: 0;
   }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
+    
   /* Button centered on screen*/
   body {
     display: flex;
@@ -29,7 +28,8 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #fff;
   }
-    
+
+  /* settings for anchor text */
   a {
     font-size: 2em;
     text-decoration: none;
@@ -38,6 +38,7 @@ body {
     line-height: 1.6;
   }
   
+  /* main button*/
   .btn {
     position: relative;
     padding: 1rem 2rem 0.5rem 2.5rem;
