@@ -1,12 +1,16 @@
-/* //////////////////////////////////
+/*//////////////////////////////////
 
 OBJECTIVE: Make a transparent button with white border/text and a offset shadow with a shadow that moves on hover.
 
 FUNCTIONALITY:  Before, the button will have an offset shadow.
-                On hover, the button shadow will align with the button outline.                   
+                On hover, the button shadow will align with the button outline.     
+                
+DESIGN NOTES: 
             
+HTML:       <a class="btn" href="#">OSB Button!</a>
 
-*/
+
+///////////////////////////////////*/ 
 
 
  * {
@@ -38,7 +42,7 @@ body {
     line-height: 1.6;
   }
   
-  /* main button*/
+  /* primary button*/
   .btn {
     position: relative;
     padding: 1rem 2rem 0.5rem 2.5rem;          /* padding space around button text*/
