@@ -5,7 +5,10 @@ OBJECTIVE: Make a transparent button with white border/text and a offset shadow 
 FUNCTIONALITY:  Before, the button will have an offset shadow.
                 On hover, the button shadow will align with the button outline.     
                 
-DESIGN NOTES: 
+DESIGN NOTES: button text padding x2 compared to bottom to accomodate even resting state of shadow.
+
+
+
             
 HTML:       <a class="btn" href="#">OSB Button!</a>
 
@@ -45,7 +48,7 @@ body {
   /* primary button*/
   .btn {
     position: relative;
-    padding: 1rem 2rem 0.5rem 2.5rem;          /* padding space around button text*/
+    padding: 1rem 2rem 0.5rem 2.5rem;          /* padding space around button text -- top/right/bottom/left     */
     color: #252525;
     border: 3px solid #252525;
     border-radius: 5px;
