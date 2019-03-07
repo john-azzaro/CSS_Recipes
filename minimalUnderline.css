@@ -10,8 +10,23 @@ DESIGN NOTES:  simple design, one color.
 
 
             
-HTML:       
+HTML:        <link rel="stylesheet" href="minimalUnderline.css">
+             <a href="#" class="button">Let's Go</a>
+      
 
 
 ///////////////////////////////////*/ 
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(186, 196, 204);
+  }
 
