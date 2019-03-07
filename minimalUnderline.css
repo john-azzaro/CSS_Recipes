@@ -7,11 +7,9 @@ FUNCTIONALITY:  Button will have a solid white border/ white text.
                 
 DESIGN NOTES:  simple design, one color.
 
-
-
             
-HTML:        <link rel="stylesheet" href="minimalUnderline.css">
-             <a href="#" class="button">Let's Go</a>
+meta:       <link rel="stylesheet" href="minimalUnderline.css">
+html:       <a href="#" class="button">minimal underline</a>
       
 
 
@@ -27,6 +25,23 @@ body {
     height: 100vh;
     width: 100%;
     font-family: "Poppins", sans-serif;
-    background-color: rgb(186, 196, 204);
+    background-color: rgb(212, 190, 184);
   }
 
+  a.cta {
+    display: block;
+    position: absolute;
+    height: 50px;
+    line-height: 50px;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    left: 50%;
+    bottom: 20%;
+    border: 2px solid #fff;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
