@@ -28,18 +28,17 @@ body {
     background-color: rgb(212, 190, 184);
   }
 
-  a.button {
-    position: relative;
-    padding: 1rem 1rem 1rem 1rem;
+  a.button { 
+    font-size: 1em;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    font-weight: 700;
     line-height: 50px;
     text-align: center;
-    color: #fff;
     text-decoration: none;
+    color: #fff;
     left: 50%;
     bottom: 20%;
-    border: 2px solid #fff;
-    font-size: 1em; 
-    font-weight: 700;
+    border: 2px solid #fff;   
     letter-spacing: 1px;
     text-transform: uppercase;
   }
