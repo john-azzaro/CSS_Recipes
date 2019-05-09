@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  :root {                                        /* CSS psuedoclass matches the root element... this is a global css value*/
+    --highLight: #8fbcda;
+  }
+  
+  body {
+    display: flex;                                            /* Allows property to grow or shrink to the space available in the flex container*/
+    align-items: center;                                      /* Vertical alignment to the center of the page.  https://www.w3schools.com/cssref/css3_pr_align-items.asp*/
+    justify-content: center;                                  /* Horizontal alignment to center of page.  https://www.w3schools.com/cssref/css3_pr_justify-content.asp  */
+    height: 100vh;                                            /* Height is equal to 100% of the viewport (Viewport Height) */
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;                                           /* scalable font size (remember: 1em = 12px) */
+  }
+  
+  a {
+    background:
+       linear-gradient(
+         to bottom, var(--highLight) 0%,
+         var(--highLight) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  a:hover {
+    background-size: 4px 50px;
+  }

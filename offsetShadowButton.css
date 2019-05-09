@@ -27,10 +27,10 @@ body {
     
   /* content (button) alignment centered on screen*/
   body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    display: flex;                                            /* Allows property to grow or shrink to the space available in the flex container*/
+    align-items: center;                                      /* Vertical alignment to the center of the page.  https://www.w3schools.com/cssref/css3_pr_align-items.asp*/
+    justify-content: center;                                  /* Horizontal alignment to center of page.  https://www.w3schools.com/cssref/css3_pr_justify-content.asp  */
+    height: 100vh;                                            /* Height is equal to 100% of the viewport (Viewport Height) */
     width: 100%;
     font-family: "Poppins", sans-serif;
     background-color: #fff;
