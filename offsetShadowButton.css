@@ -78,6 +78,9 @@ body {
   }
   
   /* Neat addition -- Brings the black outline button down on hover.  Without this, the button itself stays in place and the shadow transitions into it on hover*/
+  
+  /* box-shadow: inset xPosition yPosition blurSize spreadSize color; */
+  
   /* .btn:hover {
     padding: 0.75rem 2.25rem;
   } */
