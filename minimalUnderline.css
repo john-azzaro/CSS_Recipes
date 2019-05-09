@@ -7,6 +7,8 @@ FUNCTIONALITY:  Button will have a solid white border/ white text.
                 
 DESIGN NOTES:  simple design, one color.
 
+ISSUES: Find a good transition balance.
+
             
 meta:       <link rel="stylesheet" href="minimalUnderline.css">
 html:       <a href="#" class="button">minimal underline</a>
@@ -38,7 +40,8 @@ body {
     color: rgb(34, 34, 34);
     border: 2px solid rgb(39, 39, 39);   
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+    transform: perspective(1px) translateZ(0);
   }
 
   a.button:before {
@@ -48,11 +51,15 @@ body {
     width: 100%;
     bottom: 0;
     left: 0;
-    transition: 300ms all ease-in-out;
+    /* transform: translateY(4px);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out; */
+    /* transition: 300ms all ease-in-out; */
   }
 
-  a.button:hover:before {
-    height: 4px;
+  a.button:hover {
+    height: 20px
   }
 
   
